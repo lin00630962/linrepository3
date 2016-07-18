@@ -1,0 +1,185 @@
+.logoword2{width: 380px; height: 34px; background-image: url(../images/index/logoword2.jpg); position: absolute; bottom: 20px; left: 90px; background-repeat: no-repeat;}
+.giftbg{ background-color: #F4FDF4; min-height:1100px; border-top: 3px solid #319A31;}
+.lpdh {font-size: 18px; font-weight: bold; color: green; position: relative; padding: 60px 105px 20px;}
+.lpdh:before{
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 50px;
+	top:52px;
+	background-image: url(../images/cart.png);
+}
+.lpdh a{
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: lighter;
+	color: #6d6d6d;
+	text-decoration: underline;
+}
+.lpdh a:hover{
+	color: grey;
+}
+.lpdh a:active{
+	color: green;
+}
+.lplb { margin: 30px auto;width: 852px;}
+
+.lplb input{
+	visibility: hidden;
+}
+
+.checkboxTen {
+	width: 180px;
+	position: relative;
+	float: left;
+	height: 300px;
+	margin: 0px 13px 0px 20px;
+}
+
+.checkboxTen label {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+  	left: 0;
+	background-color: white;
+	width:150px;
+	height: 240px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px #E7F1E3;
+}
+.checkboxTen label:hover{
+	box-shadow: 0px 5px 10px #ADE696;
+	transition: box-shadow 0.3s, color 0.3s;
+}
+.checkboxTen label:after {
+	opacity: 0.1;
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 10px;
+	background: transparent;
+	bottom: 17px;
+	left: 75px;
+	border: 3px solid #75cc52;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	transition: opacity 0.3s, color 0.3s, background-color 0.3s;
+}
+
+.checkboxTen label:hover::after {
+	opacity: 0.5;
+}
+ 
+.checkboxTen input[type=checkbox]:checked + label:after {
+	opacity: 1;
+	border-color: white;
+}
+.checkboxTen input[type=checkbox]:checked + label{
+	box-shadow: 0px 5px 10px #ADE696;
+}
+.checkboxTen input[type=checkbox]:checked + label span{
+	background-color: #5FB562;
+}
+
+.giftimg{
+	width: 150px;
+	height: 130px;
+	background-color: grey;
+
+}
+
+.giftname{
+	color: #a7a7a7;
+	letter-spacing: 1px;
+	line-height: 19px;
+	display: block;
+	margin-top: 0px;
+	text-align: center;
+}
+.zlb{ position: relative; margin-left: 75px; color: #f5b71b; margin-top: 10px;}
+
+.zlb:before{
+	content: "";
+	width: 18px;
+	height: 18px;
+	background-image: url(../images/jlb.jpg);
+	position: absolute;
+	left: -25px;
+	top: 3px;
+}
+
+.checkboxTen label span{
+	width: 100%;
+	height: 40px;
+	background-color: #f7f7f7;
+	position: absolute;
+	left:-0px;
+	bottom: -0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.giftnext{
+	width: 380px;
+	height: 260px;
+	text-align: center;
+	float: left;
+	border-radius: 5px;
+	border: #D2F1D2 dotted;
+	margin-left: 17px;
+}
+
+.butnext_fail,.butnext_succeed{
+	cursor: default;
+	display: block;
+	width: 140px;
+	height: 50px;
+	background-color: #C9DAC4;
+	border-radius: 5px;
+	border:none;
+	line-height: 50px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #A9BDA9;
+	margin: 105px auto;
+	position: relative;
+}
+
+.butnext_succeed{
+	background-color: #5FB562;
+	color: white;
+	cursor: pointer;
+}
+.butnext_succeed:hover{
+	background-color: #6FBF72;
+}
+
+.butnext_fail:before{
+	content: "登录后方可点击";
+	width: 140px;
+	height: 50px;
+	color: #B2BFB2;
+	position: absolute;
+	top: -50px;
+	left: 0px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+

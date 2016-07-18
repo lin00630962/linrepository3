@@ -1,0 +1,62 @@
+.step{ width: 90%; background-color: #E3EFDF; height: 6px; border-radius: 10px; margin: 80px auto 0px; position: relative;}
+.step1{ width: 35%; background-color: #C6F1A6; float: left; height: 6px; border-radius: 10px; position: absolute; left: 0; }
+.step2{ width: 66%; background-color: #7FE64A; float: left; height: 6px; border-radius: 10px; position: absolute; left: 0; }
+.step3{ width: 100%; background-color: #26AF23; float: left; height: 6px; border-radius: 10px; position: absolute; left: 0; }
+.num{ font-size: 50px; margin: 0px 10px; color: green; font-style: italic;}
+
+
+.stepword { font-size: 20px; float: left; margin: 0px 126px 50px 54px; padding-top: 30px; color: green; }
+.numnull{ color: #E3EFDF;}
+.displaynone{ display: none;}
+
+.listinfo{ margin: 30px 100px; font-size: 1.1em; color: green;}
+.listinfo input{padding: 5px;margin-left: 15px;margin-bottom: 20px; margin-right: 40px;}
+#address{ width:70%; margin-left: 30px;}
+#postcode{ margin-left: 30px;}
+#phone{ margin-left: 30px;}
+
+.orderbanner{ font-size: 17px; margin: 53px auto 28px; font-weight: bold; background-color: #EDF9E9; padding-left: 70px; color: green;} 
+.one span{ padding: 5px;}
+.red {background-color: #ffefe4; font-size: 14px; color: rgb(255,135,135);}
+.green {background-color: #b3f795; display: inline-block; border-radius: 10px;}
+.darkgrey{color: #383838;}
+.lightgrey{ color: #a9a9a9;}
+.btnsave input{ border:none; padding:5px 10px; background-color: green; color: white; border-radius: 4px; cursor: pointer; margin: 0px auto; display: block; transition: background-color 0.3s, color 0.3s;}
+.btnnext input{ border:none; padding:10px 20px; background-color: green; color: white; border-radius: 4px; cursor: pointer; margin: 10px 100px 50px 20px; display: block;font-size: 1.2em; float: right; transition: background-color 0.3s, color 0.3s;}
+.btnnext input:hover{ background-color: #12AB0E;}
+.btnsave input:hover{ background-color: #098e09;}
+.orderbanner a{ font-size: 14px; color: green; font-weight: lighter; margin-right: 60px; text-decoration: underline;}
+
+#table-1{margin: 10px auto 40px; text-align: center;border:1px solid rgb(235, 242, 224);}
+
+#table-1 th{
+border-bottom:1px solid rgb(235, 242, 224);
+
+}
+#table-1 td, #table-1 th {
+padding: 5px 10px;
+font-size: 14px;
+font-family: Verdana;
+color: rgb(58, 64, 47);
+line-height: 30px;
+height: 30px;
+}
+#table-1 tr:nth-child(even) {
+background: rgb(248, 251, 242);
+}
+#table-1 tr:nth-child(odd) {
+background: #FFF
+}
+#table-1 td a { color: green;}
+#table-1 td a:hover { color: #0DA70D;}
+
+
+
+
+
+
+
+
+
+
+

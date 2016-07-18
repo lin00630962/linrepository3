@@ -1,0 +1,19 @@
+.btnconfrim {margin-top: 30px;}
+.btnconfrim div span{ font-size: 22px; font-weight: bold; color: #FF5A5A;margin-right: 5px; }
+.btnconfrim input{ border:none; padding:10px 20px; background-color: #FF5A5A; color: white; border-radius: 4px; cursor: pointer; margin: 10px 100px 50px 20px; display: block;font-size: 1.2em; float: right; transition: background-color 0.3s, color 0.3s;}
+.btnconfrim input:hover{ background-color: #E25656; }
+.zhoukan{ margin-left: 120px;}
+.zhoukan input{margin-right: 10px;}
+.zhoukan form a{color:green; text-decoration: underline;}
+
+.lpback {font-size: 18px; font-weight: bold; color: green; position: relative; padding: 60px 105px 20px;}
+.lpback:before{
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 60px;
+	top:57px;
+	background-image: url(../images/back.png);
+	background-size: cover;
+}

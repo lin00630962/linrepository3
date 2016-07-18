@@ -1,0 +1,163 @@
+* { margin:0; padding:0; }
+
+/*��������*/
+.content{
+	width:960px;
+	background-image: url(j_x.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 10;
+	margin-left: auto;
+	padding-bottom: 20px;
+	background-color: #f3f8fb;
+}
+.content .topdiv{
+	width:100%;
+	height:54px;
+	background-image: url(j_t.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.content .titlediv{
+	height:350px;
+	margin-left: auto;
+	margin-right: auto;
+	border: thin solid #70b0e0;
+	overFlow-x: hidden; /*���غ��������*/
+	overflow:scroll;/*���ù�����*/
+	scrollbar-face-color:#6ba9da;/*���ù�������ɫ*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 800px;
+}
+
+.content .title_pre{
+	height:25px;
+	background-color: #70b0e0;
+	font-family: "����";
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 25px;
+	padding-left: 10px;
+	width: 791px;
+	margin-left: 79px;
+
+} 
+.content .title{
+	height:20px;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #205781;
+	padding-left: 10px;
+	color: #205781;
+	font-family: "����";
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.content .kaitou{
+	font-size:12px;
+	text-indent: 20px;
+	color: #666666;
+	line-height: 20px;
+}
+.content .kaitou1{
+	font-size:12px;
+	text-indent: 20px;
+	color: #666666;
+	line-height: 20px;
+}
+.content .shou{
+	font-size:12px;
+	text-indent: 40px;
+	color: #666666;
+	background-image: url(shou.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 30px;
+
+}
+.content #agree{
+
+}
+.content .ifagree{
+	font-family: "����";
+	font-size: 12px;
+	color: #666666;
+	height: 25px;
+	padding-left: 115px;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+.content .inputdiv{
+	float:left;
+	height: 20px;
+	width: 20px;
+	margin-top: 7px;
+}
+.content .agreetext{
+	float:left;
+	height: 20px;
+
+}
+.content .buttondiv{
+	width:136px;
+	height:33px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-image: url(buttonh.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+} 
+ 
+.content #textdiv{
+	left: 157px;
+	top: 468px;
+	TEXT-ALIGN: left;
+	border: 1px solid #999999;
+	padding: 10px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.space{
+	width:100%;
+	height:20px;
+}
+
+/*-------------ҳ����Ϣ---------------*/
+.footdiv{
+width:100%;
+}
+.footstyle{
+	border-top-style: dashed;
+	border-top-color: #CCCCCC;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+}
+.footdiv .foottext{
+	width:308px;
+	height:104px;
+	background-image:url(footpic.jpg);
+	background-repeat: no-repeat;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
