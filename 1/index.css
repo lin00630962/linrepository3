@@ -6,6 +6,7 @@ a { text-decoration: none; cursor: pointer;}
 a, iframe, input, select { outline: 0px none;}
 .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
 /**/
+/**/
 /* structure */
 #welcome{ width: 100%; background-color: #f0f0f0; height: 21px;}
 #content{ width: 1077px; margin: 0 auto;}
